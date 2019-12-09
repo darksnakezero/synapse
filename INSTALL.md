@@ -407,6 +407,11 @@ To configure Synapse to expose an HTTPS port, you will need to edit
   instance, if using certbot, use `fullchain.pem` as your certificate, not
   `cert.pem`).
 
+
+And to make sure it all takes effect, restart the service:
+
+`systemctl restart matrix-synapse`
+
 For a more detailed guide to configuring your server for federation, see
 [federate.md](docs/federate.md)
 
