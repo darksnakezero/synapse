@@ -383,7 +383,7 @@ For information on using a reverse proxy, see
 [docs/reverse_proxy.md](docs/reverse_proxy.md).
 
 To configure Synapse to expose an HTTPS port, you will need to edit
-`homeserver.yaml`, as follows:
+`/etc/matrix-synapse/homeserver.yaml`, as follows:
 
 * First, under the `listeners` section, uncomment the configuration for the
   TLS-enabled listener. (Remove the hash sign (`#`) at the start of
